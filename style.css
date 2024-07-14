@@ -1,0 +1,920 @@
+@media screen and (min-width: 660px){
+
+
+    
+body{
+    width: 100%;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+
+}
+.contintro{
+    width: 100%;
+    height: 300px;
+border: solid;
+
+
+}
+.elementhead{
+    width: 33%;
+    float: left;
+    margin-left: 0px;
+
+}
+
+.LogoIntro{
+
+    width:280px;
+}
+
+
+.grid-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% auto auto;
+    grid-template-rows: 150px auto 50px;
+    min-height: 150px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.dashboardComp {
+width: 100%;
+height: 100%;
+text-align: center;
+
+}
+
+.tdMain{
+border: solid;
+
+}
+
+.numMain{
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.intro{
+align-items: center;
+text-align: center;
+width: 50%;
+margin-left: 25%;
+margin-top: 100px;
+
+}
+
+.header {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    background-color: rgb(255, 255, 255);
+    margin: 5px 10px 2px 10px;
+    align-items: center;
+}
+
+.sidebar{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: white;
+    margin: 10px 5px 5px 10px;
+    
+}
+
+.logoComp{
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+}
+
+.button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(199, 199, 199);
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.buttongest{
+    width: 100%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    padding: 0%;
+
+}
+.buttonweb{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(94, 183, 246);
+    border: none;
+
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+}
+
+.buttonintro{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(199, 199, 199);
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.button2{
+    width: 45%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(199, 199, 199);
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+}
+.button3{
+    width: 90%;
+    height: 20px;
+    background-color: rgb(177, 177, 177);
+    border-color: rgb(199, 199, 199);
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+}
+
+.input {
+    width: 48%;
+    height: 50px;
+    background-color: rgb(190, 192, 214);
+    border-color: rgb(199, 199, 199);
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.but-selected{
+    background-color: rgb(131, 145, 169);
+}
+
+.content{
+    grid-column:  2 / 4;
+    grid-row: 2;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.footer{
+    grid-column: 1 / 4;
+    grid-row: 3;
+    background-color: rgb(94, 88, 88);
+    margin: 10px;
+    color: rgb(151, 151, 151);
+    text-align: center;
+    float: left;
+    width: 100%;
+
+}
+
+.container{
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.box{
+
+    border: solid;
+    border-color: rgb(214, 214, 214);
+    float: left;
+    width: 130px;
+    height: 250px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.box2 {
+
+    border: solid;
+    border-color: rgb(214, 214, 214);
+    float: left;
+    width: 90%;
+    height: 200px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.box3 {
+
+    border: solid;
+    border-color: rgb(214, 214, 214);
+    float: left;
+    width: 90%;
+    height: 200px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.boxweb2objects{
+    width: 95%;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 5%;
+}
+
+
+.image2 {
+
+    width: 200px;
+}
+.imagebw{
+    width:45%;
+    height: 300px;
+    float: left;
+    object-fit: cover;
+
+
+}
+.imagewmain{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.imagewmainsec{
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    object-fit: cover;
+}
+
+.plan{
+    width:20%;
+    height: 600px;
+    background-color: rgb(223, 229, 236);
+    border-radius: 15px;
+    margin-left: 10%;
+    float: left;
+}
+
+.sectionweb{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+}
+
+.text-price{
+    font-size: 70px;
+}
+.textbw{
+    width:45%;
+    float: left;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight:lighter;
+    font-style: normal;
+}
+.textw{
+    width:80%;
+    margin-left: 10%;
+    float: left;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight:lighter;
+    font-style: normal;
+}
+.tline{
+    border: solid;
+    border-color: rgb(214, 214, 214);
+}
+
+
+.table-np{
+    width: 80%;
+    margin-left: 5%;
+    border: solid;
+    border-color: rgb(214, 214, 214);
+    padding: 20px;
+
+
+}
+
+.tableMC{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+
+}
+.trMC, .tdMC{
+    width: 50%;
+    height: 20px;
+    border: solid;
+}
+
+.titleComp{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 35%;
+    font-size: 90px;
+    text-align: center ;
+
+    border-width: 30px;
+}
+.titleComplement {
+    margin-top: -50px;
+    color: green;
+    padding: 0px;
+}
+.titleweb{
+    font-size: 100px;
+    font-family: "Rajdhani", sans-serif;
+    font-style: normal;
+    text-align: center;
+    font-weight:normal;
+}
+.r2{
+    width: 200px;
+
+
+}
+h1, h2, h3{
+    font-family: "Rajdhani", sans-serif;
+    font-style: normal;
+    text-align: center;
+
+}
+
+.title{
+    font-size: 25px;
+    margin-left: 20%;
+}
+
+
+.table1 {
+    width: 100%;
+    border: solid;
+    border-radius: 15px;
+    border-color: rgb(173, 173, 173);
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.table2 {
+
+
+    border: solid;
+    border-radius: 1.2rem;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.table3 {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border: solid;
+    border-radius: 1.2rem;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+.table4 {
+    width: 95%;
+    margin-left: 2%;
+}
+
+.tableb {
+    border: solid 1px;
+    border-color: rgb(188, 188, 188);
+    width: 100%;
+    text-align: center;
+}
+.nomemp{
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    
+
+}
+.descemp{
+    font-size: 20px;
+}
+
+.container {
+
+    align-items: center;
+    text-align: center;
+
+
+      
+
+}
+
+.imgpack{
+   width: 300px;  
+   border-radius: 1.2rem;
+
+}
+
+.logoCompany{
+
+    width : 50px;
+}
+
+.infoPack {
+align-items: center;
+text-align: center;
+width: 100%;
+
+}
+
+.photo{
+    width : 90%;
+
+}
+
+.main-cont{
+    width: 100%;
+    height: 350px;
+    background-color: olive;
+}
+
+.chart1{
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 45%;
+    height: 45%;
+    float: left;
+    text-align: center;
+    border: solid;
+    border-color: rgb(180, 180, 180);
+}
+
+.webb{
+    width: 100%;
+
+}
+
+
+
+
+@media screen and (max-width: 659px){
+    
+    body{
+        width: 100%;
+    
+    }
+
+    .LogoIntro{
+
+        width:100%;
+    }
+    .grid-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1% auto auto;
+        grid-template-rows: 70px auto 50px;
+        min-height: 150px;
+        font-family: "Rajdhani", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .contintro{
+        width: 100%;
+        height: 300px;
+        background-color: green;
+
+
+    }
+    
+    .dashboardComp {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+    }
+    
+    .tdMain{
+    border: solid;
+    
+    }
+    
+    .numMain{
+        font-size: 100px;
+        font-weight: 900;
+    }
+    
+    .intro{
+        align-items: center;
+        text-align: center;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 100px;
+        font-size: 12px;
+        
+        }
+        
+    
+    .header {
+        grid-column: 1 / 4;
+        grid-row: 1;
+        background-color: rgb(255, 255, 255);
+        
+
+    }
+    
+    .sidebar{
+
+
+        grid-column: 1/4;
+        grid-row: 2;
+        background-color: white;
+        margin: 10px 5px 5px 10px;
+        width: 90%;
+        margin-left: 8%;
+        margin-right: 8%;
+        
+    }
+    
+    .logoComp{
+        width: 60%;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .LogoRdCompany{
+        width:80px;
+        margin-left: 5px;
+    }
+    
+    .button{
+        width: 100px;
+        height: 35px;
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(199, 199, 199);
+        text-align: center;
+        font-family: "Rajdhani", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 15px;
+        text-decoration: none;
+        float: left;
+    }
+
+    .buttonintro{
+        width: 100%;
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(199, 199, 199);
+        text-align: center;
+        font-family: "Rajdhani", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    
+    .button2{
+        width: 45%;
+        height: 20px;
+        margin-left: 5px;
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(199, 199, 199);
+        text-align: center;
+        font-family: "Rajdhani", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 10px;
+        text-decoration: none;
+        float: left;
+        
+        
+    }
+    
+    .input {
+        width: 80%;
+        height: 30px;
+        background-color: rgb(190, 192, 214);
+        border-color: rgb(199, 199, 199);
+        text-align: center;
+        font-family: "Rajdhani", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    
+    .but-selected{
+        background-color: rgb(131, 145, 169);
+    }
+    
+    .content{
+        grid-column:  2 / 4;
+        grid-row: 3;
+        background-color: rgb(255, 255, 255);
+        margin: 10px;
+        align-items: center;
+        text-align: center;
+        height: 500px;
+    }
+    
+    .footer{
+        grid-column: 1 / 4;
+        grid-row: 4;
+        background-color: rgb(94, 88, 88);
+
+        color: rgb(151, 151, 151);
+        text-align: center;
+        font-size: small;
+
+
+    }
+    
+    .container{
+        font-size: 20px;
+        font-family: "Rajdhani", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+    
+    .box{
+    
+        border: solid;
+        border-color: rgb(214, 214, 214);
+        float: left;
+        width: 120px;
+        height: 200px;
+        padding: 5px;
+        margin-left: 15px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .box2 {
+    
+        border: solid;
+        border-color: rgb(214, 214, 214);
+        float: left;
+        width: 80%;
+        height: 200px;
+        padding: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .box3 {
+    
+        border: solid;
+        border-color: rgb(214, 214, 214);
+        float: left;
+        width: 90%;
+        height: 200px;
+        padding: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .image2 {
+    
+        width: 200px;
+    }
+    
+    .tline{
+        border: solid;
+        border-color: rgb(214, 214, 214);
+    }
+    
+    
+    .table-np{
+        width: 80%;
+        margin-left: 5%;
+        border: solid;
+        border-color: rgb(214, 214, 214);
+        padding: 20px;
+    
+    
+    }
+    
+    .tableMC{
+        width: 100%;
+
+        text-align: center;
+        margin-top: 2px;
+    
+    }
+    .trMC, .tdMC{
+        width: 50%;
+        height: 20px;
+        border: solid;
+    }
+    
+    .titleComp{
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+        margin-left: 35%;
+        font-size: 90px;
+        text-align: center ;
+    
+        border-width: 30px;
+    }
+    .titleComplement {
+        margin-top: -50px;
+        color: green;
+        padding: 0px;
+    }
+
+    .titulomod{
+        font-size: 15px;
+    }
+    
+    .r2{
+        width: 200px;
+    
+    
+    }
+    h1, h2, h3, p{
+        font-family: "Rajdhani", sans-serif;
+        font-style: normal;
+        text-align: center;
+        font-size: small;
+    
+    }
+
+    hr{
+        display: none;
+    }
+    
+    .title{
+        font-size: 25px;
+        margin-left: 20%;
+    }
+    
+    
+    .table1 {
+        width: 100%;
+        border: solid;
+        border-radius: 15px;
+        border-color: rgb(173, 173, 173);
+        text-align: center;
+        padding: 5px;
+        font-size: 20px;
+        font-family: "Rajdhani", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+    
+    .table2 {
+    
+    
+        border: solid;
+        border-radius: 1.2rem;
+        font-family: "Rajdhani", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 20px;
+    }
+    
+    .table3 {
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+        border: solid;
+        border-radius: 1.2rem;
+        font-family: "Rajdhani", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 20px;
+    }
+    
+    
+    .table4 {
+        width: 90%;
+        margin-left: 4%;
+    }
+    
+    .tableb {
+        border: solid 1px;
+        border-color: rgb(188, 188, 188);
+        width: 100%;
+        text-align: center;
+    }
+    .nomemp{
+        font-size: 20px;
+        font-family: "Rajdhani", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        
+    
+    }
+    .descemp{
+        font-size: 20px;
+    }
+    
+    .container {
+    
+        align-items: center;
+        text-align: center;
+    
+    
+          
+    
+    }
+    
+    .imgpack{
+       width: 300px;  
+       border-radius: 1.2rem;
+    
+    }
+    
+    .logoCompany{
+    
+        width : 50px;
+    }
+    
+    .infoPack {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+    }
+    
+    .photo{
+        width : 90%;
+    
+    }
+    
+    .main-cont{
+        width: 100%;
+        height: 350px;
+        background-color: olive;
+    }
+    
+    .chart1{
+        margin-top: 0px;
+        margin-left: 20px;
+        width: 45%;
+        height: 45%;
+        float: left;
+        text-align: center;
+        border: solid;
+        border-color: rgb(180, 180, 180);
+    }
+    
+    }
