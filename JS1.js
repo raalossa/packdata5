@@ -7,7 +7,7 @@ function checkpass(){
     
     if ((pass === "1234") && (emp === "Gransori")){
         //alert("Clave correcta")
-            window.location.href = "Company.html";
+            window.location.href = "1.Company.html";
         }else {
         alert("Clave o Usuario incorrectos, Intente de nuevo")
     }
@@ -268,13 +268,15 @@ console.log(typeof(consumoCombinado))
         const dCardP = document.getElementById("contMain");
         const detCard = `
 
-        <table class= "tableMC"> 
-            <tr  >
-                <td class= "tdMC"> 
-                    <h1 class = "titleComp"> ${qPacks} </h1> 
-                    <h2 class= "titleComplement"> Empaques en Sistema </h2> 
-                </td>
-                <td class= "tdMC"> 
+        <div class= ""> 
+            <div  >
+                <div class= "box4"> 
+                    <h1 class = "titleComplement"> ${qPacks} </h1> 
+                    <h2 class= "complement"> Empaques en Sistema </h2> 
+                    <hr>
+                </div>
+
+                <div class= "box4"> 
                 
                 MATERIALES
                 
@@ -331,24 +333,34 @@ console.log(typeof(consumoCombinado))
                         </tr>
                     </table> 
 
-                </td>
+                </div>
 
-            </tr>
+                <div class= "box4"> 
+                    <hr>
+                    <h1 class = "titleComplement"> 83% </h1> 
+                    <h1 class="complement"> Avance de Actividades </h1
+
+                </div>
+
+
+                <div class= "box4"> 
+                    <hr>
+                    <h1 class = "titleComplement"> 20% </h1> 
+                    <h1 class="complement"> Porcentaje de recuperación </h1>
+                    <hr>
+                </div>
+
+
+
+
+            </div>
             
-            <tr>
-                <td class= "tdMC"> 
-                    <h1 class = "titleComp"> 83% </h1> 
-                    <h1> Avance de Actividades </h1> 
-                </td>
-                <td class= "tdMC"> 
-                    <h1 class = "titleComp"> 20% </h1> 
-                    <h1> Porcentaje de recuperación </h1> 
-                </td>
 
-            </tr>
+
+
         
 
-        </table>
+        </div>
        
         `
         dCardP.innerHTML = detCard;
@@ -387,10 +399,10 @@ function createPackCardHTML (pack){
 return `
         <div class="box" >
             
-            <h2>${pack.codigo}</h2>
+            <h3>${pack.codigo}</h3>
             <p>${pack.nombre}</p>
             <img class= "imageProdList" src="${pack.linkImagen}" alt="${pack.nombre} Image">
-            <button class= "button" onclick="viewPackComponents('${pack.codigo}'); event.stopPropagation();" > Ver Detalle </button>
+            <button class= "button4" onclick="viewPackComponents('${pack.codigo}'); event.stopPropagation();" > Ver Detalle </button>
             </div>
         `
 }
