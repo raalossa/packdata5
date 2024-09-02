@@ -50,9 +50,11 @@ body{
 .box4{
 
     width: 50%;
+
     height: 280px;
     float: left;
-    border: solid;
+
+
 }
 .boxweb2objects{
     width: 95%;
@@ -174,7 +176,10 @@ body{
 }
 
 .complement{
-    color:grey;
+    color:rgb(105, 105, 105);
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
 }
 .content{
 
@@ -490,17 +495,22 @@ width: 100%;
 
 }
 
+
+/*
 .titleComp{
     width: 100%;
     height: 80px;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 35%;
     font-size: 80px;
     text-align: center ;
 
     border-width: 30px;
 }
+*/
+
 .titleComplement {
+    margin-top: 10px;
     width: 100%;
     color: rgb(56, 56, 56);
     font-size: 100px;

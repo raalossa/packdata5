@@ -268,12 +268,15 @@ console.log(typeof(consumoCombinado))
         const dCardP = document.getElementById("contMain");
         const detCard = `
 
-        <div class= ""> 
-            <div  >
+
+            <div class="content">
+
                 <div class= "box4"> 
+                                    <hr>
                     <h1 class = "titleComplement"> ${qPacks} </h1> 
                     <h2 class= "complement"> Empaques en Sistema </h2> 
                     <hr>
+
                 </div>
 
                 <div class= "box4"> 
@@ -324,7 +327,7 @@ console.log(typeof(consumoCombinado))
                             <td class="line"> ${consumoCombinado.data[2022].tOtr.toFixed(2)} </td>   
                             <td class="line"> ${consumoCombinado.data[2023].tOtr.toFixed(2)} </td>                             
                         </tr>
-                                                <tr>
+                        <tr>
                             <td class="line"> Total (t) </td>
                             <td class="line"> ${consumoCombinado.data[2020].tAno.toFixed(2)} </td>
                             <td class="line"> ${consumoCombinado.data[2021].tAno.toFixed(2)} </td>   
@@ -337,30 +340,23 @@ console.log(typeof(consumoCombinado))
 
                 <div class= "box4"> 
                     <hr>
+
                     <h1 class = "titleComplement"> 83% </h1> 
                     <h1 class="complement"> Avance de Actividades </h1
 
                 </div>
 
+                    <hr>
 
+
+            </div>
                 <div class= "box4"> 
                     <hr>
                     <h1 class = "titleComplement"> 20% </h1> 
                     <h1 class="complement"> Porcentaje de recuperación </h1>
                     <hr>
+
                 </div>
-
-
-
-
-            </div>
-            
-
-
-
-        
-
-        </div>
        
         `
         dCardP.innerHTML = detCard;
