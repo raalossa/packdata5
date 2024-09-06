@@ -22,19 +22,15 @@ function createActHtml(active){
 
             return  `
 
-            <table class= "tableb">
-
-            <tr> 
-                <td width="5%"> ${active.No} </td>  
-                <td width="50%"> <p> ${active.actividad} </p> </td>
-                <td width="10%"> ${active.requisito} </td>
-                <td width="10%"> ${active.fecha} </td>  
-                <td width="10%"> ${active.avance} </td>
-                <td width="10%"> ${active.estado} </td>
-                <td width="5%"> <button> Editar </button> </td>    
-            </tr>
-
-            </table>
+            <div class= "tableb">
+                <div width="5%"> No: ${active.No} </div>  
+                <div width="50%"> <p> Actividad: ${active.actividad} </p> </div>  
+                <div width="10%"> Requisito: ${active.requisito} </div>  
+                <div width="10%"> Fecha: ${active.fecha} </div>  
+                <div width="10%"> Avance(%): ${active.avance} </div>  
+                <div width="10%"> Estado: ${active.estado} </div>  
+                <div width="5%"> <button> Editar </button> </div>  
+            </div>  
             `
         
 

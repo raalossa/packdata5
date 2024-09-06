@@ -271,8 +271,12 @@ console.log(typeof(consumoCombinado))
 
             <div class="content">
 
+                <div class="company1">
+                    <img src="images/LOGO GRANSORI.jpg" alt="Logo Company" class="logoComp">
+                </div>
+
                 <div class= "box4"> 
-                                    <hr>
+                    <hr>
                     <h1 class = "titleComplement"> ${qPacks} </h1> 
                     <h2 class= "complement"> Empaques en Sistema </h2> 
                     <hr>

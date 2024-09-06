@@ -761,9 +761,9 @@ width: 100%;
     
     .chart1{
         margin-top: 0px;
-        margin-left: 20px;
-        width: 45%;
-        height: 45%;
+        margin-left: 5px;
+        width: 90%;
+
         float: left;
         text-align: center;
     
@@ -960,6 +960,11 @@ width: 100%;
         background-color: olive;
     }
 
+    .myChart{
+
+        min-height: 50px;
+    }
+
 
     .nav-link{
 
@@ -1113,6 +1118,10 @@ width: 100%;
         border-width: 30px;
     }
 */
+
+.titleChart{
+    font-size: 20px;
+}
     .titleComplement {
 
         color: rgb(80, 80, 80);
