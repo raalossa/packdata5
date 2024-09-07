@@ -21,7 +21,6 @@ function createActHtml(active){
 
 
             return  `
-
             <div class= "tableb">
                 <div width="5%"> No: ${active.No} </div>  
                 <div width="50%"> <p> Actividad: ${active.actividad} </p> </div>  
@@ -32,8 +31,6 @@ function createActHtml(active){
                 <div width="5%"> <button> Editar </button> </div>  
             </div>  
             `
-        
-
-       
+          
 
 }
