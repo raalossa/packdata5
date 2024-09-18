@@ -21,16 +21,24 @@ function createActHtml(active){
 
 
             return  `
-            <div class= "tableb">
-                <div width="5%"> No: ${active.No} </div>  
-                <div width="50%"> <p> Actividad: ${active.actividad} </p> </div>  
-                <div width="10%"> Requisito: ${active.requisito} </div>  
-                <div width="10%"> Fecha: ${active.fecha} </div>  
-                <div width="10%"> Avance(%): ${active.avance} </div>  
-                <div width="10%"> Estado: ${active.estado} </div>  
-                <div width="5%"> <button> Editar </button> </div>  
+            <div class= "cardActivities">
+                <br/>
+                <hr/>
+
+
+                <div class= "cardActe1"> No: ${active.No} </div>  
+                <div class= "cardActe2"> <p> Actividad: ${active.actividad} </p> </div>  
+                <div class= "cardActe3">
+                    <div class= "cardActe4"> Requisito: ${active.requisito} </div>  
+                    <div class= "cardActe4"> Fecha: ${active.fecha} </div>  
+                    <div class= "cardActe4"> Avance(%): ${active.avance} </div>  
+                    <div class= "cardActe4"> Estado: ${active.estado} </div>  
+                </div> 
+                <div class= "cardActe5"> <button class= "button5"> Editar </button> </div>  
+                <br/>
+
             </div>  
             `
-          
+           
 
 }

@@ -161,8 +161,57 @@ body{
     text-decoration: none;
 }
 
+.button5{
+    width: 100%;
+    height: 100px;
+    margin-top: 10%;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(199, 199, 199);
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    text-decoration: none;
+    float: left;
+}
+
 .but-selected{
     background-color: rgb(131, 145, 169);
+}
+
+.cardActivities {
+
+    width: 100%;
+    float: left;
+}
+
+.cardActe1{
+    width: 8%;
+    height: 100px;
+    float: left;
+
+}
+.cardActe2{
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+
+.cardActe3{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.cardActe4{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.cardActe5{
+    width: 8%;
+    height: 100%;
+    float: left;
 }
 
 .chart1{
@@ -755,11 +804,61 @@ width: 100%;
         font-size: 15px;
         text-decoration: none;
     }
+
+    .button5{
+        width: 100%;
+        height: 100px;
+        margin-top: 10%;
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(199, 199, 199);
+        text-align: center;
+        font-family: "Rajdhani", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 15px;
+        text-decoration: none;
+        float: left;
+    }
     
     .but-selected{
         background-color: rgb(131, 145, 169);
     }
     
+    .cardActivities {
+
+        width: 100%;
+        float: left;
+    }
+    
+    .cardActe1{
+        width: 8%;
+        height: 100px;
+        float: left;
+
+    }
+    .cardActe2{
+        width: 50%;
+        height: 100px;
+        float: left;
+    }
+
+    .cardActe3{
+        width: 25%;
+        height: 100%;
+        float: left;
+    }
+    .cardActe4{
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    .cardActe5{
+        width: 8%;
+        height: 100%;
+        float: left;
+    }
+
+
     .chart1{
         margin-top: 0px;
         margin-left: 5px;
